@@ -1,0 +1,18 @@
+{
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": ["--fast"],
+    "go.lintOnSave": "package",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.colorCustomizations": {
+        "editor.rangeHighlightBackground": "#00AA00",
+        "editorError.background": "#ff0000",
+        "editorError.foreground": "#130303"
+
+    }
+}
